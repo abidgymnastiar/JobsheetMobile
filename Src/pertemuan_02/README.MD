@@ -57,15 +57,15 @@ Memahami Dart penting karena itu adalah bahasa utama atau Bahasa dasar di Flutte
     B. JavaScript Compilations.
 
    Kode Dart dapat dijalankan di lingkungan yang mendukung bahasa Dart, dengan memperhatikan komponen seperti runtime systems, core libraries, dan garbage collectors. Eksekusi kode Dart bisa dilakukan dalam dua mode:
-   • Kompilasi Just-In-Time (JIT) : Kode sumber dikompilasi saat dibutuhkan, memungkinkan fitur seperti debugging dan hot reload, terutama digunakan selama pengembangan.
-   • Kompilasi Ahead-Of-Time (AOT) : Kode dikompilasi sebelumnya untuk performa tinggi, tetapi tidak mendukung fitur seperti debugging dan hot reload.
+   - Kompilasi Just-In-Time (JIT) : Kode sumber dikompilasi saat dibutuhkan, memungkinkan fitur seperti debugging dan hot reload, terutama digunakan selama pengembangan.
+   - Kompilasi Ahead-Of-Time (AOT) : Kode dikompilasi sebelumnya untuk performa tinggi, tetapi tidak mendukung fitur seperti debugging dan hot reload.
 
 4. Introducing the structure of the Dart language
   Dart adalah bahasa OOP yang mendukung prinsip-prinsip seperti encapsulation, inheritance, dan polymorphism. Objek menyimpan data dan kode, dibuat dari class sebagai cetak biru. Jika Anda sudah familiar dengan OOP di bahasa lain seperti Java, konsep OOP di Dart akan sangat mirip.
-  • Dart operator
+  - Dart operator
     menggunakan method pada x. Untuk semua tipe data, tidak seperti bahasa Java yang memiliki data primitif, x selalu berupa turunan dari kelas yang memiliki method. Ini berarti bahwa operator dapat diganti sesuai logika yang Anda inginkan.
 
-  • Aritmatika Operators
+  - Aritmatika Operators
     - `+` untuk tambahan
     - `-` untuk pengurangan
     - `*` untuk perkalian
@@ -75,10 +75,10 @@ Memahami Dart penting karena itu adalah bahasa utama atau Bahasa dasar di Flutte
     - `-expression` untuk negasi (yang membalikkan suatu nilai)
     - Dart juka menyediakan shortcut operator untuk menggabungkan variable setelah operasi lainnya dengan menambah `=`
 
-  • Increment & Decrement operator
+  - Increment & Decrement operator
     - ++var atau var++ untuk menambah nilai variable var sebesar 1
     - --var atau var—untuk mengurangi nilai variable var sebesar 1
-  • Equality & Decrement operator
+  - Equality & Decrement operator
     - Persamaan operator
         * == untuk memberikan apaakah operan sama
         * != untuk memeriksa apakah operan berbeda
@@ -97,4 +97,4 @@ Memahami Dart penting karena itu adalah bahasa utama atau Bahasa dasar di Flutte
 
 # Soal 4
 
-[Link Google Slide](https://docs.google.com/presentation/d/1hNlgt5Z8poUFuVDshPuh-j6CIzDtJiQ5S67-QvIeH2U/edit?usp=sharing)
+[Link Google Slide](https://docs.google.com/presentation/d/1iXRKenF-_kaHl35nR9-Pr8z6oZBTboui/edit#slide=id.p2)
