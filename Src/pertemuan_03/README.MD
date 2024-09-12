@@ -25,10 +25,22 @@
 
 <b>A. Praktikum 1 : Menerapkan Control Flows (“If/ Else”)</b>
 
-Modifikasi kode pada baris 3
+1. Langkah 1
 
-![kode soal no 1](../../docs/pertemuan_02_1.png)
+![kode soal no 1](../../docs/pertemuan2/praktikum1_1.png)
+
+2. Langkah 2
+3. Langkah 3
+
+
+
 
 Output :
 
 ![hasil kode soal no 1](../../docs/pertemuan_02_2.png)
+
+<b>A. Praktikum 2 : Menerapkan Control Flows (“If/ Else”)</b>
+
+<b>A. Praktikum 3 : Menerapkan Control Flows (“If/ Else”)</b>
+
+<b>A. Praktikum 4 : Menerapkan Control Flows (“If/ Else”)</b>
