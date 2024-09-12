@@ -30,17 +30,28 @@
 ![kode soal no 1](../../docs/pertemuan2/praktikum1_1.png)
 
 2. Langkah 2
+
+![kode soal no 1](../../docs/pertemuan2/praktikum1_2.png)
+
 3. Langkah 3
 
+![kode soal no 1](../../docs/pertemuan2/praktikum1_3.png)
+
+Output error
+
+![kode soal no 1](../../docs/pertemuan2/praktikum1_4.png)
+
+Kode tersebut mengalami error karena variable test dideklarasi 2 kali, pada dart tidak diizinkan mendeklarasikan nama variable yang sama. Berikut merupakan perbaikan nya
+
+![kode soal no 1](../../docs/pertemuan2/praktikum1_5.png)
+
+running
+
+![kode soal no 1](../../docs/pertemuan2/praktikum1_6.png)
 
 
+<b>B. Praktikum 2 : Menerapkan Control Flows (“If/ Else”)</b>
 
-Output :
+<b>C. Praktikum 3 : Menerapkan Control Flows (“If/ Else”)</b>
 
-![hasil kode soal no 1](../../docs/pertemuan_02_2.png)
-
-<b>A. Praktikum 2 : Menerapkan Control Flows (“If/ Else”)</b>
-
-<b>A. Praktikum 3 : Menerapkan Control Flows (“If/ Else”)</b>
-
-<b>A. Praktikum 4 : Menerapkan Control Flows (“If/ Else”)</b>
+<b>D. Praktikum 4 : Menerapkan Control Flows (“If/ Else”)</b>
