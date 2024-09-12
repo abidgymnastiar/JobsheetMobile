@@ -75,7 +75,7 @@ Hasil : tidak terjadi error dikarenakan var counter sudah di deklarasi dan di in
 
 ![kode soal no 1](../../docs/pertemuan2/praktikum2_6.png)
 
-<b>C. Praktikum 3 : Menerapkan Control Flows (“If/ Else”)</b>
+<b>C. Praktikum 3 : Menerapkan Perulangan “for” dan “break-continue”</b>
 
 1. Langkah 1
 
@@ -101,4 +101,12 @@ Hasil Ketika sudah diperbaiki
 
 Tidak terjadi error, akan tetapi akan berbeda dengan pada Langkah ke-2. Biarpun for di set kurang dari 27 tetapi dalam kondisi if didalamnya di set index == 21. Maka pada saat kondisi for ngeloop sampai ketemu 21 maka akan berhenti atau break;
 
-<b>D. Praktikum 4 : Menerapkan Control Flows (“If/ Else”)</b>
+<b>D. Praktikum 4 : Tugas</b>
+</br>
+Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+![kode soal no 1](../../docs/pertemuan2/tugas.png)
+
+hasil running
+
+![kode soal no 1](../../docs/pertemuan2/tugas1.png)
