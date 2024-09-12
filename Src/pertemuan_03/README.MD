@@ -50,7 +50,30 @@ running
 ![kode soal no 1](../../docs/pertemuan2/praktikum1_6.png)
 
 
-<b>B. Praktikum 2 : Menerapkan Control Flows (“If/ Else”)</b>
+<b>B. Praktikum 2 : Menerapkan Perulangan “While” dan “do-while”</b>
+
+1. Langkah 1
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_1.png)
+
+2. Langkah 2
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_2.png)
+
+Error dikarenakan nama variable counter belum dideklarasi dan di inisialisasi 
+diperbaiki
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_3.png)
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_4.png)
+
+3. Langkah 3
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_5.png)
+
+Hasil : tidak terjadi error dikarenakan var counter sudah di deklarasi dan di inisialisasi di praktikum sebelumnya 
+
+![kode soal no 1](../../docs/pertemuan2/praktikum2_6.png)
 
 <b>C. Praktikum 3 : Menerapkan Control Flows (“If/ Else”)</b>
 
