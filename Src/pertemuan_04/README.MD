@@ -142,45 +142,45 @@ Perbaikan
 
 4. Langkah 4
 
-![kode soal no 1](../../docs/pertemuan4/praktikum4_7.png)
-
-![kode soal no 1](../../docs/pertemuan4/praktikum4_8.png)
-
-Error tersebut terjadi karena variabel promoActive belum didefinisikan, sehingga Dart tidak dapat menemukan variabel tersebut dalam konteks program.
-
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_9.png)
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_10.png)
+
+Error tersebut terjadi karena variabel promoActive belum didefinisikan, sehingga Dart tidak dapat menemukan variabel tersebut dalam konteks program.
+
+![kode soal no 1](../../docs/pertemuan4/praktikum4_11.png)
+
+![kode soal no 1](../../docs/pertemuan4/praktikum4_12.png)
 
 Jika promoActive bernilai true, item 'Outlet' akan ditambahkan ke list nav. Jika false, item tersebut tidak akan ditambahkan.
 
 5. Langkah 5
 
-![kode soal no 1](../../docs/pertemuan4/praktikum4_11.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum4_13.png)
 
 running
 
-![kode soal no 1](../../docs/pertemuan4/praktikum4_12.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum4_14.png)
 
 Error pada kode ini disebabkan oleh penggunaan sintaks yang tidak valid: if (login case 'Manager'). Dart tidak mendukung sintaks seperti itu untuk perbandingan langsung dalam kondisi if.
 
 <b>Perbaiki</b>
 
-![kode soal no 1](../../docs/pertemuan4/praktikum4_13.png)
-
-![kode soal no 1](../../docs/pertemuan4/praktikum4_14.png)
-
-Penyelesaian dengan instansiasi var login dengan tipe data string 
-
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_15.png)
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_16.png)
+
+Penyelesaian dengan instansiasi var login dengan tipe data string 
+
+![kode soal no 1](../../docs/pertemuan4/praktikum4_17.png)
+
+![kode soal no 1](../../docs/pertemuan4/praktikum4_18.png)
 
 Menambahkan var login dengan menggunakan kondisi tertentu jika hasil nya tidak == var login maka tidak akan dicetak
 
 6. Langkah 6
 
-![kode soal no 1](../../docs/pertemuan4/praktikum4_17.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum4_19.png)
 
 hasil
 
@@ -193,8 +193,46 @@ Manfaat
 Dengan for dalam list, kita bisa dengan cepat mengubah list integer listOfInts menjadi list string listOfStrings secara dinamis, menghasilkan elemen seperti '#1', '#2', dll., tanpa menulis kode loop yang lebih panjang.
 
 
-<b>D. Praktikum 5 : Tugas</b>
+<b>D. Praktikum 5 : Eksperimen tipe data record</b>
 </br>
+
+1. Langkah 1
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_1.png)
+
+2. Langkah 2
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_2.png)
+
+Kode Dart tersebut mendefinisikan sebuah **record** yang menyimpan beberapa nilai, baik posisional maupun bernama: `'first'`, `a: 2`, `b: true`, dan `'last'`. Kode kemudian mencetak isi record, yang hasilnya adalah `(first, a: 2, b: true, last)`. **Records** di Dart memungkinkan pengelompokan berbagai nilai tanpa perlu membuat class khusus.
+
+3. Langkah 3
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_3.png)
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_4.png)
+
+Fungsi `tukar` bertujuan untuk menukar dua nilai integer dalam sebuah record bertipe `(int, int)`. Fungsi ini menerima sebuah record dengan dua integer sebagai parameter, lalu memecahnya menjadi dua variabel `a` dan `b`. Setelah itu, fungsi mengembalikan record baru dengan posisi kedua nilai tersebut ditukar, sehingga hasilnya adalah `(b, a)`.
+
+4. Langkah 4
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_5.png)
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_6.png)
+
+Error tersebut terjadi karena variabel `mahasiswa` yang bertipe non-nullable (tidak bisa bernilai `null`) digunakan sebelum diberikan nilai. Di Dart, semua variabel non-nullable wajib diinisialisasi sebelum digunakan. Untuk memperbaikinya, pastikan variabel `mahasiswa` diinisialisasi dengan nilai awal (misalnya nilai default atau objek) sebelum digunakan dalam kode.
+
+5. Langkah 5
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_7.png)
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_8.png)
+
+Pada kode tersebut mengakses elemen dalam record menggunakan indexs posisional dan nama label.
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_9.png)
+
+![kode soal no 1](../../docs/pertemuan5/praktikum4_10.png)
 
 <b>D. Praktikum 5 : Tugas</b>
 </br>
