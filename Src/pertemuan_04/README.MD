@@ -68,17 +68,17 @@ running
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum2_2.png)
 
-kode tersebut mendefinisikan sebuah set Bernama halogens yang berisi elemen string 
+kode tersebut mendefinisikan sebuah set Bernama halogens yang berisi elemen string
 
 3. Langkah 3
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum2_3.png)
 
-Hasil : Tidak terjadi error tetapi hanya mencetak index kosong 
+Hasil : Tidak terjadi error tetapi hanya mencetak index kosong
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum2_4.png)
 
-Setelah diinputkan datanya 
+Setelah diinputkan datanya
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum2_5.png)
 
@@ -122,19 +122,19 @@ output run
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_2.png)
 
-Kode di atas membuat dua list, `list1’ dengan elemen `[1, 2, 3]` dan `list2` yang berisi elemen ‘0’ diikuti dengan semua elemen dari `list1` menggunakan ‘spread operator (`...`)’, sehingga `list2` menjadi `[0, 1, 2, 3]`. Kode kemudian mencetak `list1`, `list2`, dan panjang dari ‘list2` yang hasilnya adalah ‘4’. Spread operator memungkinkan elemen dari satu list untuk disalin ke list lain.
+Kode di atas membuat dua list, `list1’ dengan elemen `[1, 2, 3]`dan`list2`yang berisi elemen ‘0’ diikuti dengan semua elemen dari`list1` menggunakan ‘spread operator (`...`)’, sehingga `list2`menjadi`[0, 1, 2, 3]`. Kode kemudian mencetak `list1`, `list2`, dan panjang dari ‘list2` yang hasilnya adalah ‘4’. Spread operator memungkinkan elemen dari satu list untuk disalin ke list lain.
 
 3. Langkah 3
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_3.png)
 
-hasil 
+hasil
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_4.png)
 
 Error terjadi pada bagian `list1 = [1, 2, null];` karena dalam Dart, list yang dideklarasikan dengan tipe `List<int>` tidak dapat berisi nilai `null`. Pada kode ini, Dart mengasumsikan bahwa `list1` adalah `List<int>`, sehingga ketika kita mencoba menambahkan `null`, itu menyebabkan error karena `null` bukan tipe `int`. Untuk mengatasi masalah ini, tipe list harus diubah menjadi `List<int?>` agar bisa menampung nilai `null`.
 
-Perbaikan 
+Perbaikan
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_5.png)
 
@@ -170,7 +170,7 @@ Error pada kode ini disebabkan oleh penggunaan sintaks yang tidak valid: if (log
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_16.png)
 
-Penyelesaian dengan instansiasi var login dengan tipe data string 
+Penyelesaian dengan instansiasi var login dengan tipe data string
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum4_17.png)
 
@@ -188,51 +188,50 @@ hasil
 
 Kode tersebut menggunakan `for` di dalam list untuk menghasilkan `listOfStrings` dari `listOfInts`. `listOfInts` berisi `[1, 2, 3]`, dan `listOfStrings` menggabungkan elemen-elemen tersebut menjadi string dengan format `#i`, menghasilkan `['#0', '#1', '#2', '#3']`. Pernyataan `assert` memastikan bahwa elemen kedua adalah `'#1'`, dan hasil akhirnya mencetak `['#0', '#1', '#2', '#3']`.
 
-Manfaat 
+Manfaat
 
 Dengan for dalam list, kita bisa dengan cepat mengubah list integer listOfInts menjadi list string listOfStrings secara dinamis, menghasilkan elemen seperti '#1', '#2', dll., tanpa menulis kode loop yang lebih panjang.
-
 
 <b>D. Praktikum 5 : Eksperimen tipe data record</b>
 </br>
 
 1. Langkah 1
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_1.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_1.png)
 
 2. Langkah 2
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_2.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_2.png)
 
 Kode Dart tersebut mendefinisikan sebuah **record** yang menyimpan beberapa nilai, baik posisional maupun bernama: `'first'`, `a: 2`, `b: true`, dan `'last'`. Kode kemudian mencetak isi record, yang hasilnya adalah `(first, a: 2, b: true, last)`. **Records** di Dart memungkinkan pengelompokan berbagai nilai tanpa perlu membuat class khusus.
 
 3. Langkah 3
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_3.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_3.png)
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_4.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_4.png)
 
 Fungsi `tukar` bertujuan untuk menukar dua nilai integer dalam sebuah record bertipe `(int, int)`. Fungsi ini menerima sebuah record dengan dua integer sebagai parameter, lalu memecahnya menjadi dua variabel `a` dan `b`. Setelah itu, fungsi mengembalikan record baru dengan posisi kedua nilai tersebut ditukar, sehingga hasilnya adalah `(b, a)`.
 
 4. Langkah 4
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_5.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_5.png)
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_6.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_6.png)
 
 Error tersebut terjadi karena variabel `mahasiswa` yang bertipe non-nullable (tidak bisa bernilai `null`) digunakan sebelum diberikan nilai. Di Dart, semua variabel non-nullable wajib diinisialisasi sebelum digunakan. Untuk memperbaikinya, pastikan variabel `mahasiswa` diinisialisasi dengan nilai awal (misalnya nilai default atau objek) sebelum digunakan dalam kode.
 
 5. Langkah 5
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_7.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_7.png)
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_8.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_8.png)
 
 Pada kode tersebut mengakses elemen dalam record menggunakan indexs posisional dan nama label.
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_9.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_9.png)
 
-![kode soal no 1](../../docs/pertemuan5/praktikum4_10.png)
+![kode soal no 1](../../docs/pertemuan4/praktikum5_10.png)
 
 <b>D. Praktikum 5 : Tugas</b>
 </br>
