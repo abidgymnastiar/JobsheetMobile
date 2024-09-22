@@ -20,7 +20,7 @@
     </tbody>
 </table>
 
-# Soal 1
+# Praktikum
 
 <b>A. Praktikum 1 : Eksperimen tipe data list</b>
 
@@ -233,5 +233,120 @@ Pada kode tersebut mengakses elemen dalam record menggunakan indexs posisional d
 
 ![kode soal no 1](../../docs/pertemuan4/praktikum5_10.png)
 
-<b>D. Praktikum 5 : Tugas</b>
+# Tugas Praktikum
+
 </br>
+
+<b>Soal 1 : Jelaskan yang dimaksud Functions dalam bahasa Dart!</b>
+
+jawab :
+Dalam bahasa Dart, Functions (fungsi) adalah blok kode yang dapat digunakan kembali untuk menjalankan tugas atau perhitungan tertentu. Fungsi memungkinkan kita mengelompokkan kode ke dalam unit-unit yang lebih kecil, membuat program lebih modular dan mudah dipelihara. Fungsi dapat menerima masukan berupa parameter dan mengembalikan nilai setelah memproses masukan tersebut.
+
+<b>Soal 2 : Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!</b>
+
+jawab :
+
+Dalam Dart, terdapat empat jenis parameter dalam fungsi:
+- Positional Parameters: Parameter yang diurutkan saat pemanggilan fungsi.
+- Optional Positional Parameters: Parameter opsional yang dibungkus dengan [].
+- Named Parameters: Parameter yang diberi nama, dibungkus dengan {}. Bisa bersifat opsional atau menggunakan required untuk membuatnya wajib.
+- Default Parameters: Parameter opsional yang memiliki nilai default.
+
+contoh sintak:
+
+![kode soal no 1](../../docs/pertemuan4/tugas.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas1.png)
+
+<b>Soal 3 : Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!</b>
+
+Jawab :
+
+Dalam Dart, Functions sebagai first-class objects berarti bahwa fungsi diperlakukan sebagai objek, sehingga dapat:
+
+- Disimpan dalam variabel.
+- Dikirim sebagai argumen ke fungsi lain.
+- Dikembalikan dari fungsi lain.
+- Ini memungkinkan kita untuk menulis kode yang lebih fleksibel dan mendukung pemrograman fungsional.
+
+![kode soal no 1](../../docs/pertemuan4/tugas2.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas2.png)
+
+Penjelasan:
+- Fungsi anonim disimpan dalam variabel (salam): Fungsi dapat dipanggil seperti variabel lainnya.
+- Fungsi sebagai argumen (salamCetak): Kita bisa mengirim fungsi sebagai parameter untuk dicetak.
+- Fungsi yang mengembalikan fungsi lain (fungsiPembuatSalam): Fungsi ini membuat dan mengembalikan fungsi lain berdasarkan input.
+
+<b>Soal 4 : Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!</b>
+
+Jawab :
+
+Anonymous Functions (fungsi anonim) adalah fungsi yang tidak memiliki nama dan biasanya didefinisikan secara langsung di tempat di mana mereka digunakan. Fungsi ini sering digunakan untuk menyederhanakan kode, meningkatkan keterbacaan, dan membuatnya lebih ringkas, terutama ketika fungsi tersebut hanya diperlukan dalam konteks tertentu, seperti dalam callback atau operasi pada koleksi.
+
+Contoh :
+
+![kode soal no 1](../../docs/pertemuan4/tugas3.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas3.png)
+
+
+<b>Soal 5 : Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!</b>
+
+Jawab:
+
+Lexical Scope
+Lexical Scope (ruang lingkup leksikal) merujuk pada cara variabel diakses dalam fungsi berdasarkan lokasi mereka dideklarasikan dalam kode. Variabel yang dideklarasikan dalam suatu blok atau fungsi hanya dapat diakses dari dalam blok tersebut dan anak bloknya.
+
+![kode soal no 1](../../docs/pertemuan4/tugas4_1.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas4_1.png)
+
+Lexical Closures
+Lexical Closures adalah fungsi yang "menangkap" variabel dari ruang lingkup leksikalnya. Artinya, fungsi ini dapat mengakses variabel yang dideklarasikan di luar fungsi tersebut, bahkan setelah ruang lingkup asalnya berakhir. Closure menyimpan referensi ke variabel yang ditangkap, sehingga tetap dapat diakses.
+
+![kode soal no 1](../../docs/pertemuan4/tugas4_2.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas4_2.png)
+
+<b>Soal 6 : Jelaskan dengan contoh cara membuat return multiple value di Functions!</b>
+
+Di Dart, kamu dapat mengembalikan beberapa nilai dari sebuah fungsi menggunakan beberapa cara, termasuk:
+
+- Menggunakan List atau Map: Mengembalikan beberapa nilai dalam bentuk koleksi.
+- Menggunakan Class atau Struct: Membuat kelas untuk mengelompokkan nilai-nilai yang ingin dikembalikan.
+- Menggunakan Tuple: Meskipun Dart tidak memiliki tuple bawaan, kita bisa menggunakan paket eksternal untuk ini.
+
+Berikut adalah contoh untuk masing-masing metode:
+- Menggunakan List
+![kode soal no 1](../../docs/pertemuan4/tugas5_1.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas5_1.png)
+
+- Menggunakan Map 
+
+![kode soal no 1](../../docs/pertemuan4/tugas5_2.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas5_2.png)
+
+- Menggunakan Kelas
+
+![kode soal no 1](../../docs/pertemuan4/tugas5_3.png)
+
+runnning
+
+![kode soal no 1](../../docs/pertemuan4/run_tugas5_3.png)
