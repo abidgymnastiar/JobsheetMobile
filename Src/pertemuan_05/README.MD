@@ -36,6 +36,8 @@ Langkah:
 - Langkah 4 : Pada code editor pastikan pilih device HP sebelum menjalankan project flutter
 - Langkah 5 : Project flutter sudah bisa ditampilkan lewat HP (Real Device)
 
+![kode soal no 2](../../docs/pertemuan5/2.jpeg)
+
 # SOal 3
 Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
 
@@ -49,5 +51,5 @@ Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya d
 # SOal 5
 README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 
-[Soal 5](https://github.com/abidgymnastiar/flutter-fundamental-part1/blob/8368780e101d7e39a464a47aa8c2ed7527d48181/laporan_praktikum/laporan1.md)
+[Soal 5](https://github.com/abidgymnastiar/JobsheetMobile/blob/982496dde9a12fbc2a709c267c7b03e5dc9e304d/Src/pertemuan_05/laporanSoal5.md)
 
