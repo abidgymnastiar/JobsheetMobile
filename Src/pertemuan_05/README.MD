@@ -23,7 +23,7 @@
 # SOal 1
 Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
 
-[Tautan ke README](laporan_praktikum/laporan.md)
+[Tautan ke README](https://github.com/abidgymnastiar/flutter-fundamental-part1/blob/7ed9b5c89d658c07ab31034d86c47e400cc02a07/laporan_praktikum/laporan.md)
 
 # SOal 2
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file README.md.
