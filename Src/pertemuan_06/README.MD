@@ -41,7 +41,7 @@
    <img src="../../docs/pertemuan6/1.png" alt="kode soal no 2" width="300">
    p
 
-   <!-- ![kode soal no 2](../../docs/pertemuan6/1.png) -->
+   ![kode soal no 2](../../docs/pertemuan6/1.png)
 
    Selanjutnya, buat diagram setiap baris. Baris pertama, disebut bagian Judul, memiliki 3 anak: kolom teks, ikon bintang, dan angka. Anak pertamanya, kolom, berisi 2 baris teks. Kolom pertama itu memakan banyak ruang, sehingga harus dibungkus dengan widget yang Diperluas.
 
