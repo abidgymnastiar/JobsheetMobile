@@ -39,6 +39,7 @@
    Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen disusun menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks.
 
    <img src="../../docs/pertemuan6/1.png" alt="kode soal no 2" width="300">
+   p
 
    <!-- ![kode soal no 2](../../docs/pertemuan6/1.png) -->
 
