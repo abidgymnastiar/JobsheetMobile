@@ -194,26 +194,26 @@
     <img src="../../docs/pertemuan6/prak1_20.png" alt="kode soal no 2" width="300">
 </div>
 
-7. Langkah 7: Menambahkan aksi pada ListView
-   Item pada ListView saat ini ketika ditekan masih belum memberikan aksi tertentu. Untuk menambahkan aksi pada ListView dapat digunakan widget InkWell atau GestureDetector. Perbedaan utamanya InkWell merupakan material widget yang memberikan efek ketika ditekan. Sedangkan GestureDetector bersifat umum dan bisa juga digunakan untuk gesture lain selain sentuhan. Pada praktikum ini akan digunakan widget InkWell.
+7.  Langkah 7: Menambahkan aksi pada ListView
+    Item pada ListView saat ini ketika ditekan masih belum memberikan aksi tertentu. Untuk menambahkan aksi pada ListView dapat digunakan widget InkWell atau GestureDetector. Perbedaan utamanya InkWell merupakan material widget yang memberikan efek ketika ditekan. Sedangkan GestureDetector bersifat umum dan bisa juga digunakan untuk gesture lain selain sentuhan. Pada praktikum ini akan digunakan widget InkWell.
 
-   Untuk menambahkan sentuhan, letakkan cursor pada widget pembuka Card. Kemudian gunakan shortcut quick fix dari VSCode (Ctrl + . pada Windows atau Cmd + . pada MacOS). Sorot menu wrap with widget... Ubah nilai widget menjadi InkWell serta tambahkan named argument onTap yang berisi fungsi untuk berpindah ke halaman ItemPage. Ilustrasi potongan kode dapat anda lihat pada potongan berikut.
+    Untuk menambahkan sentuhan, letakkan cursor pada widget pembuka Card. Kemudian gunakan shortcut quick fix dari VSCode (Ctrl + . pada Windows atau Cmd + . pada MacOS). Sorot menu wrap with widget... Ubah nilai widget menjadi InkWell serta tambahkan named argument onTap yang berisi fungsi untuk berpindah ke halaman ItemPage. Ilustrasi potongan kode dapat anda lihat pada potongan berikut.
 
-   - InkWell
+    - InkWell
+
+      <div align="center">
+        <img src="../../docs/pertemuan6/prak1_21.png" alt="kode soal no 2" width="300">
+    </div>
+
+    - GestureDetector
 
      <div align="center">
-       <img src="../../docs/pertemuan6/prak1_21.png" alt="kode soal no 2" width="300">
-   </div>
+        <img src="../../docs/pertemuan6/prak1_22.png" alt="kode soal no 2" width="300">
+    </div>
 
-   - GestureDetector
+    <b>Perbedaannya</b>
 
-    <div align="center">
-       <img src="../../docs/pertemuan6/prak1_22.png" alt="kode soal no 2" width="300">
-   </div>
-
-   <b>Perbedaannya</b>
-
-        InkWell dan GestureDetector adalah dua widget di Flutter yang digunakan untuk menangani interaksi pengguna, tetapi memiliki perbedaan utama dalam fungsionalitas dan tampilan. InkWell adalah widget material yang memberikan efek riak ketika ditekan, sehingga sangat cocok untuk digunakan dalam konteks aplikasi material, memberikan umpan balik visual yang jelas kepada pengguna. Sebaliknya, GestureDetector adalah widget yang lebih umum dan tidak memberikan efek visual bawaan; ia dapat menangani berbagai jenis gesture seperti geser, pinch, atau sentuhan, dan lebih fleksibel dalam mendeteksi gerakan yang lebih kompleks. Dengan kata lain, gunakan InkWell ketika Anda ingin memberikan umpan balik visual pada sentuhan, sedangkan GestureDetector cocok untuk mendeteksi berbagai jenis interaksi tanpa efek visual spesifik.
+         InkWell dan GestureDetector adalah dua widget di Flutter yang digunakan untuk menangani interaksi pengguna, tetapi memiliki perbedaan utama dalam fungsionalitas dan tampilan. InkWell adalah widget material yang memberikan efek riak ketika ditekan, sehingga sangat cocok untuk digunakan dalam konteks aplikasi material, memberikan umpan balik visual yang jelas kepada pengguna. Sebaliknya, GestureDetector adalah widget yang lebih umum dan tidak memberikan efek visual bawaan; ia dapat menangani berbagai jenis gesture seperti geser, pinch, atau sentuhan, dan lebih fleksibel dalam mendeteksi gerakan yang lebih kompleks. Dengan kata lain, gunakan InkWell ketika Anda ingin memberikan umpan balik visual pada sentuhan, sedangkan GestureDetector cocok untuk mendeteksi berbagai jenis interaksi tanpa efek visual spesifik.
 
 # Tugas Praktikum 2
 
@@ -224,14 +224,14 @@
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
 
-hasil ss 
+hasil ss
 
 <div align="center">
-       <img src="../../docs/pertemuan6/tugas2_2.png" alt="kode soal no 2" width="300">
+       <img src="../../docs/pertemuan6/tugas2_2.png" alt="kode soal no 2" width="500">
    </div>
 
 <br>
 
 <div align="center">
-       <img src="../../docs/pertemuan6/tugas2_1.png" alt="kode soal no 2" width="300">
+       <img src="../../docs/pertemuan6/tugas2_1.png" alt="kode soal no 2" width="500">
    </div>
