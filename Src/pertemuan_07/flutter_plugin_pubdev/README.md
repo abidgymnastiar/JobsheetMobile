@@ -30,9 +30,9 @@
 
     Tambahkan plugin auto_size_text menggunakan perintah berikut di terminal
 
-    <div align="center">
-        <img src="../../../docs/pertemuan7/1.png" alt="" width="700">
-    </div>
+<div align="center">
+     <img src="../../../docs/pertemuan7/1.png" alt="" width="700">
+</div>
 
     Jika berhasil, maka akan tampil nama plugin beserta versinya di file pubspec.yaml pada bagian dependencies.
 
