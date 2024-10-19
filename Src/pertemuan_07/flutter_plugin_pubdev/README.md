@@ -206,3 +206,11 @@ Jadi, perbedaannya adalah pada lebar Container, warna latar belakang, dan apakah
 - maxLines: Menentukan jumlah maksimum baris yang bisa digunakan oleh teks. Jika teks melebihi jumlah baris yang diizinkan, teks akan dipotong sesuai pengaturan overflow.
 
 - semanticsLabel: Label deskriptif yang dapat dibaca oleh alat bantu seperti screen readers, sehingga pengguna dengan gangguan penglihatan dapat memahami konten teks.
+
+
+# Tugas Tambahkan plugin kamera pada aplikasi 
+
+- instal
+
+- Tambahkan dependency
+

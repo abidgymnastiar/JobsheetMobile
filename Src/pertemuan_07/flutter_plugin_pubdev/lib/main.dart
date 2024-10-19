@@ -1,4 +1,6 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_plugin_pubdev/camera.dart';
 import 'package:flutter_plugin_pubdev/red_text_widget.dart';
 
 void main() {
@@ -17,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: CameraScreen(),
+      // const MyHomePage(title: 'Flutter Demo Home Page')
     );
   }
 }
