@@ -214,3 +214,12 @@ Jadi, perbedaannya adalah pada lebar Container, warna latar belakang, dan apakah
 
 - Tambahkan dependency
 
+     <div align="center">
+     <img src="../../../docs/pertemuan7/17.png" alt="" width="700">
+     </div>
+
+     hasil  : 
+     <div align="center">
+     <img src="../../../docs/pertemuan7/18.png" alt="" width="700">
+     </div>
+
